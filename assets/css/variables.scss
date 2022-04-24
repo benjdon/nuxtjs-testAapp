@@ -1,0 +1,81 @@
+// Ref: https://github.com/nuxt-community/vuetify-module#customvariables
+
+@font-face {
+  font-family: Varela;
+  src: url(~assets/fonts/VarelaRound-Regular.ttf);
+}
+
+@font-face {
+  font-family: Vosten;
+  src: url(~assets/fonts/vosten.ttf);
+}
+
+h1, h2, h3, h4, h5,
+.h1, .h2, .h3, .h4, .h5 {
+  font-family: Varela;
+}
+
+.v-btn:focus:before {
+  opacity: 0 !important;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.v-input,
+.v-label {
+  font-size: 14px!important;
+}
+
+.v-btn {
+  font-size: 12px!important;
+  letter-spacing: normal!important;
+}
+
+.v-main {
+  background-color: #fafafa !important;
+  overflow-x: hidden!important;
+}
+
+.brand-color {
+  background: #fbc122!important;
+  color: #fff!important;
+}
+
+.text-brand {
+  color: #fbc122!important;
+}
+
+.btn-save {
+  background: #66BB6A !important;
+  color: #fff !important;
+}
+
+.btn-cancel {
+  background: #607D8B !important;
+  color: #fff !important;
+}
+
+.btn-new {
+  background: #039BE5 !important;
+  color: #fff !important;
+}
+
+.line {
+  background: #d4d4d4;
+  height: 1px;
+}
+
+.v-application .body-2,
+h3, h4 {
+  letter-spacing: normal!important;
+}
+
+.w-100 {
+  width: 100%;
+}
+
+.letter-spacing-normal {
+  letter-spacing: normal!important;
+}
